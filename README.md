@@ -9,7 +9,7 @@
 Below is an example of the Streamlit interface:  
 
 ![Streamlit Interface](docs/screenshots/early-blight.png)
-![Streamlit Interface](docs/screenshots/healthy-blight.png)
+![Streamlit Interface](docs/screenshots/healthy.png)
 ![Streamlit Interface](docs/screenshots/late-blight.png)
 ---
 
