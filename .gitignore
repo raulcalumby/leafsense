@@ -1,0 +1,18 @@
+# Diretórios de modelos treinados
+/models/
+# Venv
+/venv/
+# Dados de treinamento e validação
+training/PlantVillage
+training/.ipynb_checkpoints
+
+
+# Arquivos temporários e cache
+*.tmp
+*.log
+*.csv
+*.json
+*.xlsx
+__pycache__/
+*.pyc
+.DS_Store
