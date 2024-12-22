@@ -1,10 +1,18 @@
 # **LeafSense** 🌿  
-**Potato Leaf Disease Classification using FastAPI and Streamlit**  
+**Leaf Disease Classification using FastAPI and Streamlit**  
 
 ## **Overview**  
-**LeafSense** is a machine learning application designed to analyze and classify the health of potato leaves based on images. It combines **FastAPI** to serve the machine learning model and **Streamlit** to provide an interactive user interface.  
+**LeafSense** is a machine learning application designed to analyze and classify the health based on images. It combines **FastAPI** to serve the machine learning model and **Streamlit** to provide an interactive user interface.  
 
 ---
+### **Screenshot** 🖼️  
+Below is an example of the Streamlit interface:  
+
+![Streamlit Interface](docs/screenshots/early-blight.png)
+![Streamlit Interface](docs/screenshots/healthy-blight.png)
+![Streamlit Interface](docs/screenshots/late-blight.png)
+---
+
 
 ## **Features** ✨  
 - **Image Upload:** Upload leaf images directly through the web interface.  

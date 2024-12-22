@@ -11,7 +11,7 @@ api_url = "http://localhost:8000/predict"  # FastAPI endpoint
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)
-    st.image(image, caption="Uploaded image.", use_container_width=True)
+    st.image(image, caption="Uploaded image.", width=300)
 
     if st.button("Analyze Health"):
         img_bytes = io.BytesIO()
