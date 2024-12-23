@@ -1,4 +1,4 @@
-# **LeafSense** 🌿  
+# **LeafGuard** 🌿  
 **Leaf Disease Classification using FastAPI and Streamlit**  
 
 ## **Overview**  
