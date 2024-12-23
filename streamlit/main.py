@@ -7,7 +7,7 @@ st.title("Potato Disease Classification")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
-api_url = "http://localhost:8000/predict"  # FastAPI endpoint
+api_url = "http://localhost:8000/type"  # FastAPI endpoint
 
 if uploaded_file is not None:
     image = Image.open(uploaded_file)

@@ -6,8 +6,15 @@ from PIL import Image
 import tensorflow as tf
 
 app = FastAPI()
-MODEL = tf.keras.models.load_model("../models/1.keras")
-CLASS_NAMES = ["Early Blight", "Late Blight", "Healthy"]
+MODEL = tf.keras.models.load_model("../models/3.keras")
+CLASS_NAMES = [
+  "Potato Early Blight", 
+  "Potato Late Blight", 
+  "Potato Healthy",
+  "Tomato Early Blight", 
+  "Tomato Late Blight", 
+  "Tomato Healthy"
+  ]
 
 @app.get("/ping")
 async def ping():
