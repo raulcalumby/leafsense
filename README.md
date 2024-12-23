@@ -2,7 +2,7 @@
 **Leaf Disease Classification using FastAPI and Streamlit**  
 
 ## **Overview**  
-**LeafSense** is a machine learning application designed to analyze and classify the health based on images. It combines **FastAPI** to serve the machine learning model and **Streamlit** to provide an interactive user interface.  
+**LeafGuard** is a machine learning application designed to analyze and classify the health based on images. It combines **FastAPI** to serve the machine learning model and **Streamlit** to provide an interactive user interface.  
 
 ---
 ### **Screenshot** 🖼️  
